@@ -72,6 +72,147 @@
     font-style: normal;
 }
 
+a {
+    text-decoration: none;
+    color: unset;
+}
+
+a:visited {
+    color: unset;
+}
+
+
 /* HEADER */
+.header-container {
+    display: grid;
+    grid-template-columns: 110px repeat(2, 1fr) 50px;
+    grid-template-rows: 1fr;
+    align-items: center;
+    margin: 15px 100px;
+}
+
+.header-logo {}
+
+
+.choice {
+    display: flex;
+    font-weight: 700;
+    justify-content: flex-end;
+    text-transform: uppercase;
+    color: #565656;
+    gap: 50px;
+}
+
+.header-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.sign-register {
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color: #55B570;
+}
+
+.sign-up {
+    border-right: 3px solid #55B570;
+    padding-right: 10px;
+}
+
+.register {
+    padding-left: 5px
+}
+
 /* MAIN */
 /* FOOTER */
+.footer-cotainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 60px);
+    margin: 0 0 52px 100px;
+}
+
+.footer-logo {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    margin-bottom: 30px;
+}
+
+.rights {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #7E7E7E;
+}
+
+.all-rights {
+    margin: 0;
+}
+
+.copy {
+    margin: 0;
+}
+
+.terms {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.terms,
+.privacy {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #2E9ADB;
+
+}
+
+.privacy {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.choice-web {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+.choice-mark {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.choice-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1C1C1C;
+}
+
+.footer-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
+.footer-contacts {
+    grid-column: 3/4;
+    grid-row: 2/4;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.contact {
+    display: flex;
+    gap: 5px;
+    color: #000000;
+}
