@@ -130,17 +130,19 @@ a:visited {
 /* MAIN */
 /*  Sectionfirst */
 
+/*  Sectionfirst */
+
 .section-first {
     font-family: "Gilroy";
     position: relative;
     text-align: center;
     letter-spacing: 0em;
     color: white;
-  }
+}
 
-  .up_bg {
+.up_bg {
     width: 100%;
-  }
+}
   .h-container {
     position: absolute;
     display: block;
@@ -149,13 +151,8 @@ a:visited {
     left: 52%;
     top: 61%;
     border-radius: 0px;
-
-    transform: translate(-50%, -50%);
-    /*display: grid;
-    grid-template-columns: 140%;
-    grid-template-rows: 1fr 1fr;
-    justify-self: stretch;*/
   }
+
   .h1 {
     /*grid-column: 1/2;
     grid-row: 1/2;
@@ -164,8 +161,8 @@ a:visited {
     font-weight: 900;
     line-height: 75px;
     letter-spacing: 0em;
+    transform: translate(-50%, -50%);
   }
-
   .h3 {
     /*grid-column: 1/2;
     grid-row: 2/3;
@@ -173,9 +170,12 @@ a:visited {
     font-size: 20px;
     font-weight: 500;
     line-height: 24px;
+    transform: translate(-50%, -50%);
   }
   .exp-container {
     position: absolute;
+    top: 32%;
+    left: 50%;
     top: 55%;
     left: 52%;
     transform: translate(-50%, -50%);
@@ -206,6 +206,28 @@ a:visited {
     line-height: 19px;
     letter-spacing: 0em;
   }
+.main-choice{
+    height: 300px;
+    width: 1110px;
+    left: 165px;
+    top: 600px;
+    border-radius: 8px;
+    
+    display: grid;
+    grid-template-columns: 552px 552px;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas: "wc-text mc-text"
+    "web-button mc-button";
+}
+.wc-text, .mc-text{
+    
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0em;
+color: #000000;
+
+}
 
 /* 3 часть */
 
