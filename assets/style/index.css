@@ -72,6 +72,11 @@
     font-style: normal;
 }
 
+body {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
 a {
     text-decoration: none;
     color: unset;
@@ -91,8 +96,6 @@ a:visited {
     margin: 15px 100px;
 }
 
-.header-logo {}
-
 
 .choice {
     display: flex;
@@ -104,8 +107,6 @@ a:visited {
 }
 
 .header-text {
-    font-family: 'Gilroy';
-    font-style: normal;
     font-size: 13px;
     line-height: 16px;
 }
@@ -206,6 +207,172 @@ a:visited {
     letter-spacing: 0em;
   }
 
+/* 3 часть */
+
+.section-third {
+    /* background: url(../images/third-section/top-background.png);
+    background-size: cover;
+    min-height: 100px; */
+    position: relative;
+    height: 523px;
+    margin-bottom: 189px;
+}
+
+.third-background {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.third-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    margin-bottom: 40px;
+}
+
+.third-title {
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.sections-titles {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.marketing {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.third-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 350px);
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+}
+
+.top {
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.columns-tittle {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 79px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.columns-text {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.offers {
+    grid-column: 2/3;
+    text-align: center;
+}
+
+
+.payment {
+    grid-column: 3/4;
+    text-align: center;
+}
+
+/* 4 часть */
+
+.first-part {
+    margin-bottom: 71px;
+}
+
+.first-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}
+
+.first-tittle {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+.highlight {
+    color: #2E9ADB;
+}
+
+.first-text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #939393;
+}
+
+.first-payment {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.second-tittle {
+    text-align: center;
+}
+
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 80px 205px;
+    gap: 30px;
+}
+
+
+.section-pic {
+    margin: 40px 0 0 40px;
+}
+
+.box-container {
+    margin: 87px 40px 40px 40px;
+}
+
+.subtittle {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    margin-top: 47px;
+}
+
+.second-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+
+.verticals {
+    background-image: url(../images/fourth-section/second-part/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 260px;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
 
 /* FOOTER */
 .footer-cotainer {
@@ -273,6 +440,8 @@ a:visited {
     font-size: 16px;
     line-height: 19px;
     color: #1C1C1C;
+    display: flex;
+    align-items: center;
 }
 
 .footer-text {
