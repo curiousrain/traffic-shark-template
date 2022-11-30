@@ -149,7 +149,7 @@
 
     .forgot-psswrd {}
 
-    .register {}
+    .register-acc
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -169,9 +169,11 @@
     }
 
     .signup-block {
-        padding: 155px 100px;
+        padding: 155px 0px;
+        margin: auto;
         display: flex;
         flex-direction: column;
+        max-width: 350px;
         gap: 40px;
     }
 
@@ -204,16 +206,18 @@
         background: #2E9ADB;
         color: #FFFFFF;
         text-transform: uppercase;
-        padding: 18px 0 18px 140px;
+        padding: 18px;
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+        align-items: center;
     }
 
     .signup {
         font-size: 20px;
         line-height: 24px;
-        display: flex;
-        align-items: center;
-        justify-content: space-evenly;
-        gap: 85px;
+        align-self: center;
+        margin: auto;
     }
 
     .remember-bttn {
@@ -251,29 +255,95 @@
 
     .forgot-psswrd {}
 
-    .register {}
+    .register-acc
 }
 
 @media screen and (max-width:767px) {
-    .signup-container {}
+    .signup-container {
+        position: relative;
+    }
 
-    .singup-back {}
-
-    .mob-sign-back {
+    .singup-back {
         display: none;
     }
 
-    .box-signup {}
+    .mob-sign-back {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
 
-    .box-field {}
+    .signup-block {
+        padding: 32px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 288px;
+        gap: 32px;
+    }
 
-    .box-send {}
+    .signup-tittle {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 25px;
+    }
 
-    .remember-bttn {}
+    .singup-text {
+        font-weight: 900;
+    }
 
-    .remember-me {}
+    .box-signup {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
 
-    .remember-switch {}
+    .box-field {
+        padding: 20px;
+        border-radius: 40px;
+        border: 2px solid #FFFFFF;
+    }
+
+    .box-send {
+        border: 3px solid #FFFFFF;
+        border-radius: 40px;
+        background: #2E9ADB;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding: 18px;
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .signup {
+        font-size: 16px;
+        line-height: 24px;
+        align-self: center;
+        margin: auto;
+    }
+
+    .remember-bttn {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .remember-me {
+        background: rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 15px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .remember-switch {
+        width: 30px;
+        height: 30px;
+    }
 
     .yes-remember {}
 
@@ -281,9 +351,14 @@
 
     .remember {}
 
-    .options {}
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
 
     .forgot-psswrd {}
 
-    .register {}
+    .register-acc
 }

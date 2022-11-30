@@ -938,9 +938,10 @@ a:visited {
     .header-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
         align-items: center;
         margin: 15px;
+        gap: 15px;
     }
 
     .header-logo {
