@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/images/flavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/normallize.css" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img class="header-logo" src="./assets/images/header/logo.png" alt="логотип" />
+            <div class="choice">
+                <a href="#" class="header-text link-web">Вебмастерам</a>
+                <a href="#" class="header-text link-mark">Рекламодателям</a>
+            </div>
+            <div class="sign-register">
+                <a href="./sign-up.html" class="header-text sign-up">Вход</a>
+                <a href="#" class="header-text register">Регистрация</a>
+            </div>
+            <div class="change-lang-button">
+                <button class="language-change" id="language-change">
+                    <span class="switch"></span>
+                    <span class="language-ru">ru</span>
+                    <span class="language-eng">en</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="register-container">
+            <img class="reg-back" src="./assets/images/registration/register-back.png" alt="background">
+            <img class="reg-mob-back" src="./assets/images/registration/register-mob-back.png" alt="background">
+            <div class="register-block">
+                <h1 class="register-tittle">Регистрация</h1>
+                <form class="register-form">
+                    <input input type="email" required placeholder="E-mail" class="email-box form-text">
+                    <input type="password" required placeholder="Пароль" class="register-box">
+                    <input type="password" required placeholder="Повторите пароль" class="register-box">
+                    <input type="text" required placeholder="Skype" class="register-box">
+                    <input type="text" required placeholder="Telegram" class="register-box">
+                    <div class="register-work">
+                        <h2 class="work-tittle">С чем вы работаете:</h2>
+                        <div class="cpi">
+                            <input type="checkbox" name="cbi" id="cbi">
+                            <p>CBI</p>
+                        </div>
+                        <div class="gamble">
+                            <input type="checkbox" name="gambling" id="gamble">
+                            <p>Gambling</p>
+                        </div>
+                        <div class="bet">
+                            <input type="checkbox" name="bet" id="bet">
+                            <p>Betting</p>
+                        </div>
+                        <div class="crypto">
+                            <input type="checkbox" name="crypto" id="crypto">
+                            <p>Crypto</p>
+                        </div>
+                        <div class="datinges">
+                            <input type="checkbox" name="datinges" id="datinges">
+                            <p>Datinges</p>
+                        </div>
+                        <div class="sweepstakes">
+                            <input type="checkbox" name="sweepstakes" id="sweepstakes">
+                            <p>Sweepstakes</p>
+                        </div>
+                        <div class="cc-submits">
+                            <input type="checkbox" name="cc-submits" id="cc-submits">
+                            <p>CC-submits</p>
+                        </div>
+                        <div class="other">
+                            <input type="checkbox" name="other" id="other">
+                            <p>Other</p>
+                        </div>
+                    </div>
+                    <input type="text" required placeholder="Какой трафик вы используете?"
+                        class="traffic-box form-text">
+                    <div class="agree">
+                        <input type="checkbox" name="agree" id="agree">
+                        <p>I agree with terms and conditions</p>
+                    </div>
+                    <div>
+                        <button type="submit" class="reg-bttn">
+                            <span class="register-send form-text">
+                                Зарегистрироваться
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div class="reg-popup">
+        <div class="reg-message">
+            <p class="success-request">
+                Ваша заявка на регистрацию успешно принята.
+                Скоро мы свяжемся с вами!
+            </p>
+            <a class="go-main" href="./index.html">На главную</a>
+        </div>
+    </div>
+
+    <script src="./assets/scripts/scripts.js"></script>
+</body>
+
+</html>
