@@ -1,0 +1,377 @@
+.remember-me {
+    background: #F9F9F9;
+    border: 1px solid #EBEBEB;
+    border-radius: 14px;
+    display: flex;
+    gap: 15px;
+    position: relative;
+    z-index: 0;
+    width: 65px;
+    height: 28px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.remember-switch {
+    display: block;
+    background: #FFFFFF;
+    border-radius: 14px;
+    width: 35px;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+}
+
+
+.yes-remember,
+.remember-me.no .no-remember {
+    color: #FFFFFF;
+}
+
+.no-remember,
+.remember-me.no .yes-remember {
+    color: #919191;
+}
+
+.remember-me.no .switch {
+    right: 0;
+    left: unset;
+}
+
+.signup-block {
+    color: #FFFFFF;
+}
+
+.options {
+    text-decoration: underline;
+}
+
+@media screen and (min-width:1024px) {
+
+    .signup-container {
+        position: relative;
+    }
+
+    .singup-back {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .mob-sign-back {
+        display: none;
+    }
+
+    .signup-block {
+        padding: 155px 0;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        max-width: 350px;
+    }
+
+    .signup-tittle {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 37px
+    }
+
+    .singup-text {
+        font-weight: 900;
+    }
+
+    .box-signup {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .box-field {
+        padding: 28px 0 28px 33px;
+        border-radius: 40px;
+        border: 2px solid #FFFFFF;
+    }
+
+    .box-send {
+        border: 3px solid #FFFFFF;
+        border-radius: 40px;
+        background: #2E9ADB;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding: 28px;
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+    }
+
+    .signup {
+        font-size: 20px;
+        line-height: 24px;
+        align-self: center;
+        margin: auto;
+    }
+
+    .remember-bttn {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        cursor: pointer;
+    }
+
+    .remember-me {
+        background: rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 15px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .remember-switch {
+        width: 30px;
+        height: 30px;
+    }
+
+    .yes-remember {}
+
+    .no-remember {}
+
+    .remember {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .small-text {
+        font-weight: 500;
+    }
+
+    .options {
+        display: flex;
+        gap: 93px;
+        justify-content: space-between;
+    }
+
+    .forgot-psswrd,
+    .register-acc {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+}
+
+@media screen and (min-width:768px) and (max-width:1023px) {
+    .signup-container {
+        position: relative;
+    }
+
+    .singup-back {
+        display: none;
+    }
+
+    .mob-sign-back {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+        height: 92vh;
+    }
+
+    .signup-block {
+        padding: 155px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 350px;
+        gap: 40px;
+    }
+
+    .signup-tittle {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 30px;
+        line-height: 37px
+    }
+
+    .singup-text {
+        font-weight: 900;
+    }
+
+    .box-signup {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .box-field {
+        padding: 28px 0 28px 33px;
+        border-radius: 40px;
+        border: 2px solid #FFFFFF;
+    }
+
+    .box-send {
+        border: 3px solid #FFFFFF;
+        border-radius: 40px;
+        background: #2E9ADB;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding: 18px;
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .signup {
+        font-size: 20px;
+        line-height: 24px;
+        align-self: center;
+        margin: auto;
+    }
+
+    .remember-bttn {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .remember-me {
+        background: rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 15px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .remember-switch {
+        width: 30px;
+        height: 30px;
+    }
+
+    .yes-remember {}
+
+    .no-remember {}
+
+    .remember {}
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 47px;
+        align-items: center;
+    }
+
+    .forgot-psswrd {}
+
+    .register-acc
+}
+
+@media screen and (max-width:767px) {
+    .signup-container {
+        position: relative;
+    }
+
+    .singup-back {
+        display: none;
+    }
+
+    .mob-sign-back {
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+
+    .signup-block {
+        padding: 32px 0px;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        max-width: 288px;
+        gap: 32px;
+    }
+
+    .signup-tittle {
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    .singup-text {
+        font-weight: 900;
+    }
+
+    .box-signup {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .box-field {
+        padding: 20px;
+        border-radius: 40px;
+        border: 2px solid #FFFFFF;
+    }
+
+    .box-send {
+        border: 3px solid #FFFFFF;
+        border-radius: 40px;
+        background: #2E9ADB;
+        color: #FFFFFF;
+        text-transform: uppercase;
+        padding: 18px;
+        display: flex;
+        justify-self: center;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .signup {
+        font-size: 16px;
+        line-height: 24px;
+        align-self: center;
+        margin: auto;
+    }
+
+    .remember-bttn {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .remember-me {
+        background: rgba(255, 255, 255, 0.25);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        border-radius: 15px;
+        width: 60px;
+        height: 30px;
+    }
+
+    .remember-switch {
+        width: 30px;
+        height: 30px;
+    }
+
+    .yes-remember {}
+
+    .no-remember {}
+
+    .remember {}
+
+    .small-text {}
+
+    .options {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .forgot-psswrd {}
+
+    .register-acc {}
+}
