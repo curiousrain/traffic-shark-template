@@ -139,7 +139,14 @@
 
     .no-remember {}
 
-    .remember {}
+    .remember {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    .small-text {
+        font-weight: 500;
+    }
 
     .options {
         display: flex;
@@ -147,9 +154,13 @@
         justify-content: space-between;
     }
 
-    .forgot-psswrd {}
+    .forgot-psswrd,
+    .register-acc {
+        font-size: 16px;
+        line-height: 24px;
+    }
 
-    .register-acc
+
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -351,6 +362,8 @@
 
     .remember {}
 
+    .small-text {}
+
     .options {
         display: flex;
         flex-direction: column;
@@ -360,5 +373,5 @@
 
     .forgot-psswrd {}
 
-    .register-acc
+    .register-acc {}
 }
