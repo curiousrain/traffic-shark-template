@@ -48,6 +48,14 @@
     text-decoration: underline;
 }
 
+.box-bttn:after {
+    display: block;
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/sign-up/bttn-arrow.svg);
+}
+
 @media screen and (min-width:1024px) {
 
     .signup-container {
@@ -80,7 +88,7 @@
         line-height: 37px
     }
 
-    .singup-text {
+    .box-text {
         font-weight: 900;
     }
 
@@ -96,7 +104,7 @@
         border: 2px solid #FFFFFF;
     }
 
-    .box-send {
+    .box-bttn {
         border: 3px solid #FFFFFF;
         border-radius: 40px;
         background: #2E9ADB;
@@ -108,7 +116,7 @@
         justify-content: space-evenly;
     }
 
-    .signup {
+    .box-send {
         font-size: 20px;
         line-height: 24px;
         align-self: center;
@@ -135,10 +143,6 @@
         height: 30px;
     }
 
-    .yes-remember {}
-
-    .no-remember {}
-
     .remember {
         font-size: 13px;
         line-height: 24px;
@@ -160,7 +164,6 @@
         line-height: 24px;
     }
 
-
 }
 
 @media screen and (min-width:768px) and (max-width:1023px) {
@@ -176,7 +179,7 @@
         position: absolute;
         z-index: -1;
         width: 100%;
-        height: 92vh;
+        max-height: 92vh;
     }
 
     .signup-block {
@@ -195,7 +198,7 @@
         line-height: 37px
     }
 
-    .singup-text {
+    .box-text {
         font-weight: 900;
     }
 
@@ -211,7 +214,7 @@
         border: 2px solid #FFFFFF;
     }
 
-    .box-send {
+    .box-bttn {
         border: 3px solid #FFFFFF;
         border-radius: 40px;
         background: #2E9ADB;
@@ -224,7 +227,7 @@
         align-items: center;
     }
 
-    .signup {
+    .box-send {
         font-size: 20px;
         line-height: 24px;
         align-self: center;
@@ -251,22 +254,12 @@
         height: 30px;
     }
 
-    .yes-remember {}
-
-    .no-remember {}
-
-    .remember {}
-
     .options {
         display: flex;
         flex-direction: column;
         gap: 47px;
         align-items: center;
     }
-
-    .forgot-psswrd {}
-
-    .register-acc
 }
 
 @media screen and (max-width:767px) {
@@ -281,7 +274,6 @@
     .mob-sign-back {
         position: absolute;
         z-index: -1;
-        width: 100%;
     }
 
     .signup-block {
@@ -300,7 +292,7 @@
         line-height: 25px;
     }
 
-    .singup-text {
+    .box-text {
         font-weight: 900;
     }
 
@@ -316,7 +308,7 @@
         border: 2px solid #FFFFFF;
     }
 
-    .box-send {
+    .box-bttn {
         border: 3px solid #FFFFFF;
         border-radius: 40px;
         background: #2E9ADB;
@@ -330,7 +322,7 @@
         margin: 10px 0;
     }
 
-    .signup {
+    .box-send {
         font-size: 16px;
         line-height: 24px;
         align-self: center;
@@ -356,22 +348,10 @@
         height: 30px;
     }
 
-    .yes-remember {}
-
-    .no-remember {}
-
-    .remember {}
-
-    .small-text {}
-
     .options {
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-
-    .forgot-psswrd {}
-
-    .register-acc {}
 }

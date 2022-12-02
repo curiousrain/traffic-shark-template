@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="shortcut icon" href="./assets/images/flavicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style/normallize.css" />
+    <link rel="stylesheet" href="./assets/style/index.css" />
+    <link rel="stylesheet" href="./assets/style/sign-up.css">
+    <link rel="stylesheet" href="./assets/style/register.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img class="header-logo" src="./assets/images/header/logo.png" alt="логотип" />
+            <div class="choice">
+                <a href="#" class="header-text link-web">Вебмастерам</a>
+                <a href="#" class="header-text link-mark">Рекламодателям</a>
+            </div>
+            <div class="sign-register">
+                <a href="./sign-up.html" class="header-text sign-up">Вход</a>
+                <a href="#" class="header-text register">Регистрация</a>
+            </div>
+            <div class="change-lang-button">
+                <button class="language-change" id="language-change">
+                    <span class="switch"></span>
+                    <span class="language-ru">ru</span>
+                    <span class="language-eng">en</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="register-container">
+            <img class="reg-back" src="./assets/images/registration/register-back.png" alt="background">
+            <img class="reg-mob-back" src="./assets/images/registration/register-mob-back.png" alt="background">
+            <div class="register-block">
+                <h1 class="register-tittle">Регистрация</h1>
+                <form class="register-form" id="register-form">
+                    <input input type="email" required placeholder="E-mail" class="form-text register-field">
+                    <input type="password" required placeholder="Пароль" class="register-box register-field">
+                    <input type="password" required placeholder="Повторите пароль" class="register-box register-field">
+                    <input type="text" placeholder="Skype" class="register-box register-field">
+                    <input type="text" placeholder="Telegram" class="register-box register-field">
+                    <h2 class="register-tittle work-tittle">С чем вы работаете:</h2>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="cpi" id="cpi">
+                        <label for="cpi" class="labeled-text">CPI</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="gambling" id="gamble">
+                        <label for="gamble" class="labeled-text">Gambling</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="bet" id="bet">
+                        <label for="bet" class="labeled-text">Betting</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="crypto" id="crypto">
+                        <label for="crypto" class="labeled-text">Crypto</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="datinges" id="datinges">
+                        <label for="datinges" class="labeled-text">Datinges</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="sweepstakes" id="sweepstakes">
+                        <label for="sweepstakes" class="labeled-text">Sweepstakes</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="cc-submits" id="cc-submits">
+                        <label for="cc-submits" class="labeled-text">CC-submits</label>
+                    </div>
+                    <div class="reg-check">
+                        <input class="checkbox" type="checkbox" name="other" id="other">
+                        <label for="other" class="labeled-text">Other</label>
+                    </div>
+                    <input type="text" required placeholder="Какой трафик вы используете?"
+                        class="traffic-box form-text register-field">
+                    <div class="agree">
+                        <input class="checkbox" type="checkbox" name="agree" id="agree">
+                        <label for="agree">I agree with <a class="conditions" href="#">terms and conditions</a></label>
+                    </div>
+                    <div class="submit-container">
+                        <button type="submit" class="reg-bttn">
+                            <span class="register-send form-text">
+                                Зарегистрироваться
+                            </span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+
+    <div class="reg-popup" id="reg-popup">
+        <div class="reg-message">
+            <p class="success-request">
+                Ваша заявка на регистрацию успешно принята.
+                Скоро мы свяжемся с вами!
+            </p>
+            <a class="go-main box-bttn" href="./index.html"><span class="box-send box-text">На главную</span></a>
+        </div>
+    </div>
+    <script src="./assets/scripts/register.js"></script>
+    <script src="./assets/scripts/scripts.js"></script>
+</body>
+
+</html>
