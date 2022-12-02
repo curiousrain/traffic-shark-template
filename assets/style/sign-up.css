@@ -143,10 +143,6 @@
         height: 30px;
     }
 
-    .yes-remember {}
-
-    .no-remember {}
-
     .remember {
         font-size: 13px;
         line-height: 24px;
@@ -183,7 +179,7 @@
         position: absolute;
         z-index: -1;
         width: 100%;
-        height: 92vh;
+        max-height: 92vh;
     }
 
     .signup-block {
@@ -258,22 +254,12 @@
         height: 30px;
     }
 
-    .yes-remember {}
-
-    .no-remember {}
-
-    .remember {}
-
     .options {
         display: flex;
         flex-direction: column;
         gap: 47px;
         align-items: center;
     }
-
-    .forgot-psswrd {}
-
-    .register-acc {}
 }
 
 @media screen and (max-width:767px) {
@@ -288,7 +274,6 @@
     .mob-sign-back {
         position: absolute;
         z-index: -1;
-        width: 100%;
     }
 
     .signup-block {
@@ -363,22 +348,10 @@
         height: 30px;
     }
 
-    .yes-remember {}
-
-    .no-remember {}
-
-    .remember {}
-
-    .small-text {}
-
     .options {
         display: flex;
         flex-direction: column;
         gap: 20px;
         align-items: center;
     }
-
-    .forgot-psswrd {}
-
-    .register-acc {}
 }
