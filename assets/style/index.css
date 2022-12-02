@@ -1338,3 +1338,36 @@ border-radius: 40px;
         color: #000000;
     }
 }
+
+/* 2 часть desktop*/
+
+.second {
+    min-height: 100vh;
+    padding-top: 80px;
+}
+
+.second__title {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 80px;
+}
+
+.wrapper {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.benefits__wrap {
+    margin: 0 auto;
+}
+
+.benefits__cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-column-gap: 55px;
+    
+}
