@@ -206,6 +206,133 @@ a:visited {
     font-weight: 900;
 }
 
+.marketing {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.top {
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.columns-tittle {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.columns-text {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.offers {
+    text-align: center;
+}
+
+
+.payment {
+    text-align: center;
+}
+
+/*4 часть*/
+
+.first-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-tittle {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+.highlight {
+    color: #2E9ADB;
+}
+
+.first-payment {
+    display: flex;
+}
+
+.first-text {
+    font-weight: 500;
+    color: #939393;
+}
+
+
+.subtittle {
+    font-weight: 900;
+}
+
+.second-text {
+    font-weight: 300;
+}
+
+
+.verticals {
+    background-image: url(../images/fourth-section/second-part/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 260px;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+/*footer*/
+.footer-cotainer {
+    display: grid;
+}
+
+.rights {
+    font-weight: 500;
+    color: #7E7E7E;
+}
+
+.all-rights {
+    margin: 0;
+}
+
+.copy {
+    margin: 0;
+}
+
+.terms,
+.privacy {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2E9ADB;
+}
+
+.choice-text {
+    font-weight: 500;
+    color: #1C1C1C;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+    gap: 5px;
+    color: #000000;
+}
+
 @media screen and (min-width:1024px) {
 
     /* HEADER */
@@ -503,17 +630,8 @@ a:visited {
     }
 
     .sections-titles {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-    }
-
-    .marketing {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #FFFFFF;
     }
 
     .third-columns {
@@ -525,34 +643,26 @@ a:visited {
 
     .top {
         grid-column: 1/2;
-        text-align: center;
     }
 
     .columns-tittle {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 79px;
         line-height: 19px;
-        color: #FFFFFF;
         padding-bottom: 30px;
     }
 
     .columns-text {
-        font-weight: 700;
         font-size: 16px;
         line-height: 19px;
-        color: #FFFFFF;
     }
 
     .offers {
         grid-column: 2/3;
-        text-align: center;
     }
 
 
     .payment {
         grid-column: 3/4;
-        text-align: center;
     }
 
     /* 4 часть */
@@ -562,34 +672,21 @@ a:visited {
     }
 
     .first-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 80px;
         padding-top: 97px;
     }
 
     .first-tittle {
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-        text-transform: uppercase;
-        padding-bottom: 0;
-    }
-
-    .highlight {
-        color: #2E9ADB;
     }
 
     .first-text {
-        font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #939393;
     }
 
     .first-payment {
-        display: flex;
         flex-direction: row;
         gap: 30px;
         align-items: center;
@@ -602,10 +699,11 @@ a:visited {
 
     .boxes {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 350px);
         grid-template-rows: repeat(2, 1fr);
-        padding: 80px 205px;
+        padding: 80px 0;
         gap: 30px;
+        justify-content: center;
     }
 
 
@@ -618,32 +716,19 @@ a:visited {
     }
 
     .subtittle {
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
         margin-top: 47px;
     }
 
     .second-text {
-        font-weight: 300;
         font-size: 14px;
         line-height: 16px;
     }
 
 
-    .verticals {
-        background-image: url(../images/fourth-section/second-part/background.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100% 260px;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
-    }
-
-
     /* FOOTER */
     .footer-cotainer {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 60px);
         margin: 0 0 52px 100px;
@@ -658,18 +743,8 @@ a:visited {
     .rights {
         grid-column: 1/2;
         grid-row: 2/3;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #7E7E7E;
-    }
-
-    .all-rights {
-        margin: 0;
-    }
-
-    .copy {
-        margin: 0;
     }
 
     .terms {
@@ -679,12 +754,8 @@ a:visited {
 
     .terms,
     .privacy {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        text-transform: uppercase;
-        color: #2E9ADB;
-
     }
 
     .privacy {
@@ -703,34 +774,16 @@ a:visited {
     }
 
     .choice-text {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #1C1C1C;
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-text {
-        font-family: 'Gilroy';
-        font-style: normal;
     }
 
     .footer-contacts {
         grid-column: 3/4;
         grid-row: 2/4;
-        display: flex;
-        flex-direction: column;
         gap: 30px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .contact {
-        display: flex;
-        gap: 5px;
-        color: #000000;
     }
 }
 
@@ -922,20 +975,9 @@ a:visited {
         margin-bottom: 20px;
     }
 
-
-
     .sections-titles {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-    }
-
-    .marketing {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #FFFFFF;
     }
 
     .third-columns {
@@ -945,34 +987,17 @@ a:visited {
         padding-left: 10px;
     }
 
-    .top {
-        text-align: center;
-    }
-
     .columns-tittle {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 60px;
         line-height: 60px;
-        color: #FFFFFF;
     }
 
     .columns-text {
-        font-weight: 700;
         font-size: 16px;
         line-height: 19px;
-        color: #FFFFFF;
         padding: 0 10px;
     }
 
-    .offers {
-        text-align: center;
-    }
-
-
-    .payment {
-        text-align: center;
-    }
 
     /* 4 часть */
 
@@ -985,39 +1010,24 @@ a:visited {
     }
 
     .first-header {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
         margin-bottom: 32px;
     }
 
     .first-tittle {
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-        text-transform: uppercase;
-        padding-bottom: 0;
-    }
-
-    .highlight {
-        color: #2E9ADB;
     }
 
     .first-text {
-        font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #939393;
-
     }
 
     .first-payment {
-        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 15px;
-
     }
 
     .wire {
@@ -1071,7 +1081,6 @@ a:visited {
 
     .subtittle {
         text-align: center;
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
         margin-top: 75px;
@@ -1079,19 +1088,12 @@ a:visited {
 
     .second-text {
         text-align: center;
-        font-weight: 300;
         font-size: 14px;
         line-height: 16px;
     }
 
 
     .verticals {
-        background-image: url(../images/fourth-section/second-part/background.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100% 260px;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1100,7 +1102,6 @@ a:visited {
 
     /* FOOTER */
     .footer-cotainer {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 60px);
         margin-left: 20px;
@@ -1115,18 +1116,8 @@ a:visited {
     .rights {
         grid-column: 1/2;
         grid-row: 2/3;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #7E7E7E;
-    }
-
-    .all-rights {
-        margin: 0;
-    }
-
-    .copy {
-        margin: 0;
     }
 
     .terms {
@@ -1136,12 +1127,8 @@ a:visited {
 
     .terms,
     .privacy {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        text-transform: uppercase;
-        color: #2E9ADB;
-
     }
 
     .privacy {
@@ -1160,34 +1147,16 @@ a:visited {
     }
 
     .choice-text {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #1C1C1C;
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-text {
-        font-family: 'Gilroy';
-        font-style: normal;
     }
 
     .footer-contacts {
         grid-column: 3/4;
         grid-row: 2/4;
-        display: flex;
-        flex-direction: column;
         gap: 30px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .contact {
-        display: flex;
-        gap: 5px;
-        color: #000000;
     }
 }
 
@@ -1378,17 +1347,13 @@ a:visited {
     }
 
     .sections-titles {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
     }
 
     .marketing {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #FFFFFF;
     }
 
     .third-columns {
@@ -1396,36 +1361,17 @@ a:visited {
         flex-direction: column;
     }
 
-    .top {
-        text-align: center;
-    }
-
     .columns-tittle {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 69px;
         line-height: 60px;
-        color: #FFFFFF;
     }
 
     .columns-text {
-        font-weight: 700;
         font-size: 13px;
         line-height: 16px;
-        color: #FFFFFF;
         padding: 0 16px;
     }
 
-    .offers {
-        /* grid-column: 2/3; */
-        text-align: center;
-    }
-
-
-    .payment {
-        /* grid-column: 3/4; */
-        text-align: center;
-    }
 
     /* 4 часть */
 
@@ -1438,30 +1384,17 @@ a:visited {
     }
 
     .first-header {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
         margin-bottom: 32px;
     }
 
     .first-tittle {
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
-        text-transform: uppercase;
-        padding-bottom: 0;
-    }
-
-    .highlight {
-        color: #2E9ADB;
     }
 
     .first-text {
-        font-weight: 500;
         font-size: 13px;
         line-height: 15px;
-        color: #939393;
-
     }
 
     .first-payment {
@@ -1536,7 +1469,6 @@ a:visited {
 
     .subtittle {
         text-align: center;
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
         margin-top: 75px;
@@ -1544,19 +1476,12 @@ a:visited {
 
     .second-text {
         text-align: center;
-        font-weight: 300;
         font-size: 14px;
         line-height: 16px;
     }
 
 
     .verticals {
-        background-image: url(../images/fourth-section/second-part/background.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100% 260px;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1565,7 +1490,6 @@ a:visited {
 
     /* FOOTER */
     .footer-cotainer {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, auto);
         margin: 0 16px 20px 16px;
@@ -1580,18 +1504,8 @@ a:visited {
     .rights {
         grid-column: 1/2;
         grid-row: 3/5;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #7E7E7E;
-    }
-
-    .all-rights {
-        margin: 0;
-    }
-
-    .copy {
-        margin: 0;
     }
 
     .terms {
@@ -1601,11 +1515,8 @@ a:visited {
 
     .terms,
     .privacy {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        text-transform: uppercase;
-        color: #2E9ADB;
     }
 
     .privacy {
@@ -1624,34 +1535,16 @@ a:visited {
     }
 
     .choice-text {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #1C1C1C;
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-text {
-        font-family: 'Gilroy';
-        font-style: normal;
     }
 
     .footer-contacts {
         grid-column: 1/3;
         grid-row: 2/3;
-        display: flex;
-        flex-direction: column;
         gap: 20px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .contact {
-        display: flex;
-        gap: 5px;
-        color: #000000;
     }
 }
 
