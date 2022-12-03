@@ -193,119 +193,122 @@ a:visited {
         padding-left: 5px
     }
 
-    
-/* MAIN */
 
-/*  section-first */
-.section-first {
-    font-family: 'Gilroy';
-    position: relative;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 171px;
-}
+    /* MAIN */
 
-.up_bg {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
+    /*  section-first */
+    .section-first {
+        font-family: 'Gilroy';
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 171px;
+    }
 
-.h-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 171px;
-    margin-bottom: 100px;
-}
+    .up_bg {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 
-.h1 {
-    font-size: 60px;
-    font-weight: 900;
-    line-height: 100%;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
+    .h-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 171px;
+        margin-bottom: 100px;
+    }
 
-.h3 {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: white;
-}
+    .h1 {
+        font-size: 60px;
+        font-weight: 900;
+        line-height: 100%;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+    }
 
-.exp-container {
-    display: grid;
-    grid-template-columns: repeat(4, 276px);
-    grid-template-rows: 1fr;
-    justify-content: space-evenly;
-    grid-template-areas:
-        "exp1 exp2 exp3 exp4";
-   
-}
+    .h3 {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: white;
+    }
 
-.exp-tittle {
-    font-size: 40px;
-    font-weight: 800;
-    line-height: 49px;
-    color: white;
-}
+    .exp-container {
+        display: grid;
+        grid-template-columns: repeat(4, 276px);
+        grid-template-rows: 1fr;
+        justify-content: space-evenly;
+        grid-template-areas:
+            "exp1 exp2 exp3 exp4";
 
-.exp-text {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 19px;
-    color: white;
-    padding-bottom: 30px;
-}
+    }
 
-.exp1,
-.exp2,
-.exp3 {border-right: 2px solid rgba(255, 255, 255, 0.25);}
+    .exp-tittle {
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 49px;
+        color: white;
+    }
 
-.main-choice {
-    background: #FFFFFF;
-    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-    border-radius: 8px;
-    display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 1fr;
-    grid-template-areas: "wc-text mc-text"
-        "web-button mc-button";
-    align-items: center;
-    padding: 40px;
-}
+    .exp-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19px;
+        color: white;
+        padding-bottom: 30px;
+    }
 
-.wc-text,
-.mc-text {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 30px;
-}
+    .exp1,
+    .exp2,
+    .exp3 {
+        border-right: 2px solid rgba(255, 255, 255, 0.25);
+    }
 
-.choice-button {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 20px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 354px;
-    height: 80px;
-    border-radius: 40px;
-}
+    .main-choice {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 500px 500px;
+        grid-template-rows: 1fr;
+        grid-template-areas: "wc-text mc-text"
+            "web-button mc-button";
+        align-items: center;
+        padding: 40px;
+    }
 
-.web-choice {border-right: 2px solid #F3F3F3;}
+    .wc-text,
+    .mc-text {
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 30px;
+    }
 
+    .choice-button {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 20px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 354px;
+        height: 80px;
+        border-radius: 40px;
+    }
+
+    .web-choice {
+        border-right: 2px solid #F3F3F3;
+    }
 
     /* 3 часть */
 
@@ -682,6 +685,7 @@ a:visited {
         display: flex;
         flex-direction: row;
         padding-bottom: 20px;
+        padding-left: 10px;
     }
 
     .top {
@@ -1327,7 +1331,7 @@ a:visited {
 
 .benefits__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 55px;
-    
+
 }
