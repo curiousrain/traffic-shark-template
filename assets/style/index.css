@@ -86,9 +86,18 @@ a:visited {
     color: unset;
 }
 
+/*header*/
+
 .header-container {
     display: grid;
     align-items: stretch;
+}
+
+.choice {
+    display: flex;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #565656;
 }
 
 .choice-link {
@@ -105,13 +114,24 @@ a:visited {
     background-color: #2E9ADB;
     content: "";
     top: 0px;
+}
 
+.sign-register {
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color: #55B570;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .change-lang-button {
     display: flex;
     align-items: center;
 }
+
 
 .language-change {
     background: #F9F9F9;
@@ -163,14 +183,33 @@ a:visited {
     left: unset;
 }
 
+/*3 часть*/
 
+.section-third {
+    position: relative;
+    margin-bottom: 92px;
+}
 
+.third-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-title {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.sections-titles {
+    text-transform: uppercase;
+    font-weight: 900;
+}
 
 @media screen and (min-width:1024px) {
 
     /* HEADER */
     .header-container {
-        display: grid;
         grid-template-columns: 110px 1fr 238px 50px;
         grid-template-rows: 1fr;
         margin: 0 170px 0 100px;
@@ -182,11 +221,7 @@ a:visited {
     }
 
     .choice {
-        display: flex;
-        font-weight: 700;
         justify-content: flex-end;
-        text-transform: uppercase;
-        color: #565656;
         gap: 50px;
         padding-right: 50px;
     }
@@ -197,14 +232,6 @@ a:visited {
     }
 
     .sign-register {
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
-        color: #55B570;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         border: 1px solid #F4F4F4;
         border-top: none;
         border-bottom: none;
@@ -455,15 +482,15 @@ a:visited {
     /* 3 часть */
 
     .section-third {
-        position: relative;
         height: 523px;
-        margin-bottom: 189px;
+        margin-bottom: 0;
     }
 
     .third-background {
         position: absolute;
         z-index: -1;
         width: 100%;
+        max-height: 540px;
     }
 
     .third-background-mob {
@@ -471,16 +498,8 @@ a:visited {
     }
 
     .third-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding-top: 105px;
         margin-bottom: 80px;
-    }
-
-    .third-title {
-        color: #FFFFFF;
-        margin-bottom: 20px;
     }
 
     .sections-titles {
@@ -547,6 +566,7 @@ a:visited {
         flex-direction: column;
         align-items: center;
         margin-bottom: 80px;
+        padding-top: 97px;
     }
 
     .first-tittle {
@@ -719,7 +739,6 @@ a:visited {
     /* HEADER */
 
     .header-container {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
         margin: 15px;
@@ -732,11 +751,7 @@ a:visited {
 
     .choice {
         grid-column: 2/3;
-        display: flex;
-        font-weight: 700;
         justify-content: flex-end;
-        text-transform: uppercase;
-        color: #565656;
         gap: 50px;
     }
 
@@ -746,17 +761,9 @@ a:visited {
     }
 
     .sign-register {
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
-        color: #55B570;
-        height: 100%;
         border: 1px solid #F4F4F4;
         border-top: none;
         border-bottom: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .sign-up {
@@ -893,12 +900,10 @@ a:visited {
     /* 3 часть */
 
     .section-third {
-        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
-        margin-bottom: 92px;
     }
 
     .third-background {
@@ -913,17 +918,11 @@ a:visited {
     }
 
     .third-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding: 35px 16px 0 16px;
         margin-bottom: 20px;
     }
 
-    .third-title {
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
+
 
     .sections-titles {
         text-transform: uppercase;
@@ -1196,7 +1195,6 @@ a:visited {
 
     /* HEADER */
     .header-container {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
         column-gap: 15px;
@@ -1212,10 +1210,7 @@ a:visited {
         grid-column: 1/4;
         grid-row: 2/3;
         display: flex;
-        font-weight: 700;
-        text-transform: uppercase;
         text-align: center;
-        color: #565656;
         height: 40px;
         box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05) inset;
     }
@@ -1230,23 +1225,13 @@ a:visited {
     }
 
     .header-text {
-        font-size: 13px;
-        line-height: 16px;
+        font-size: 12px;
+        line-height: 15px;
     }
 
     .sign-register {
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
-        color: #55B570;
-        height: 100%;
         border-right: 1px solid #F4F4F4;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
-
-    .sign-up {}
 
     .register {
         display: none;
@@ -1371,12 +1356,10 @@ a:visited {
     /* 3 часть */
 
     .section-third {
-        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
-        margin-bottom: 92px;
     }
 
     .third-background {
@@ -1390,15 +1373,7 @@ a:visited {
     }
 
     .third-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding: 92px 16px 0 16px;
-        margin-bottom: 20px;
-    }
-
-    .third-title {
-        color: #FFFFFF;
         margin-bottom: 20px;
     }
 
@@ -1422,7 +1397,6 @@ a:visited {
     }
 
     .top {
-        /* grid-column: 1/2; */
         text-align: center;
     }
 
@@ -1756,15 +1730,15 @@ a:visited {
     font-size: 24px;
     line-height: 24px;
     /* padding: 80px; */
-width: 350px;
-height: 80px;
-transition: all 0.5s;
-cursor: pointer;
-margin: 5px;
-margin-bottom: 80px;
-text-transform: uppercase;
-align-items: center;
-justify-content: center;
+/* width: 350px;
+    height: 80px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 80px;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
 }
 
 .button:hover {
@@ -1795,6 +1769,4 @@ justify-content: center;
 .button:hover span:after {
     opacity: 1;
     right: 0;
-}
-
-*/
+} */
