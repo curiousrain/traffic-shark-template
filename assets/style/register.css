@@ -398,27 +398,28 @@ body {
     }
 
     .register-send {
-        font-size: 16px;
+        font-size: 13px;
         line-height: 24px;
     }
 
     .reg-message {
-        padding: 50px 43px;
-        max-width: 540px;
+        padding: 32px 16px;
+        max-width: 288px;
         width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 32px;
+        gap: 16px;
+        margin: 0 16px;
     }
 
     .success-request {
-        max-width: 420px;
+        max-width: 256px;
         margin: 0;
     }
 
     .go-main {
-        max-width: 354px;
-        width: 100%;
+        max-width: 256px;
+        width: 80%;
     }
 }
