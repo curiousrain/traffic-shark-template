@@ -9,6 +9,7 @@ body {
 .register-tittle {
     text-align: center;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .register-field {
@@ -41,6 +42,7 @@ body {
     color: #FFFFFF;
     text-align: center;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
 .reg-popup {
@@ -79,6 +81,7 @@ body {
         position: absolute;
         width: 100%;
         z-index: -1;
+        height: 130vh;
     }
 
     .reg-mob-back {
