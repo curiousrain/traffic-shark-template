@@ -1,23 +1,368 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./assets/style/normallize.css" />
-    <link rel="stylesheet" href="./assets/style/index.css" />
-  </head>
 
-  <body>
-    <header></header>
-    <main>
-      <section class="sectionfirst">
-        <img class="up_bg" src="assets/images/up_bg.png" alt="up_bg" />
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Traffic Shark - Для вебмастеров</title>
+  <link rel="shortcut icon" href="./assets/images/flavicon.png" type="image/x-icon" />
+  <link rel="stylesheet" href="./assets/style/normallize.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./assets/style/index.css" />
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <a href="./index.html" class="header-logo"><img src="./assets/images/header/logo.png" alt="логотип" /></a>
+      <div class="choice">
+        <a href="#" class="header-text link-web choice-link active">Вебмастерам</a>
+        <a href="#" class="header-text link-mark choice-link">Рекламодателям</a>
+      </div>
+      <div class="sign-register">
+        <a href="./sign-up.html" class="header-text sign-up">Вход</a>
+        <a href="./register.html" class="header-text register">Регистрация</a>
+      </div>
+      <div class="change-lang-button">
+        <button class="language-change" id="language-change">
+          <span class="switch"></span>
+          <span class="language-ru">ru</span>
+          <span class="language-eng">en</span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="section-first">
+      <img class="up_bg" src="assets/images/up_bg.png" alt="up_bg" />
+      <img class="up_bg-mob" src="assets/images/mobile-background.png" alt="mobile-background.png" />
+      <div class="h-container">
         <h1 class="h1">МОБИЛЬНАЯ ПАРТНЕРСКАЯ СЕТЬ</h1>
         <h3 class="h3">Только рабочие офферы от прямых рекламодателей</h3>
-      </section>
-    </main>
-    <footer></footer>
-  </body>
+      </div>
+      <div class="exp-container">
+        <div class="exp1">
+          <p class="exp-tittle">300+</p>
+          <p class="exp-text">офферов по всему миру</p>
+        </div>
+        <div class="exp2">
+          <p class="exp-tittle">70+</p>
+          <p class="exp-text">активных рекламодателей</p>
+        </div>
+        <div class="exp3">
+          <p class="exp-tittle">6 лет</p>
+          <p class="exp-text">в аффилейт маркетинге</p>
+        </div>
+        <div class="exp4">
+          <p class="exp-tittle">10.000+</p>
+          <p class="exp-text">конверсий в день</p>
+        </div>
+      </div>
+
+      <div class="main-choice">
+        <div class="web-choice">
+          <p class="wc-text">
+            Я пользователь соцсетей, блогер, владелец сайта или арбитражник и
+            хочу сотрудничать с топовыми мировыми брендами.
+          </p>
+          <div class="wc-button">
+            <button type="button" class="btn btn-info btn-lg choice-button">
+              веб-мастерам &nbsp &nbsp
+              <img src="assets/images/Arrow.png" alt="arrow" />
+            </button>
+          </div>
+        </div>
+        <div class="mark-choice">
+          <p class="mc-text">
+            Я владелец компании или маркетолог и хочу привлечь новых клиентов
+            и увеличить продажи с помощью онлайн-рекламы.
+          </p>
+          <div class="mc-button">
+            <button type="button" class="btn btn-success btn-lg choice-button">
+              рекламодателю &nbsp &nbsp
+              <img src="assets/images/arrow-left.png" alt="arrow-left" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- sectionsecond -->
+    <section class="second">
+      <div class="wrapper">
+        <h2 class="second__title">Работать с нами это</h2>
+      </div>
+      <div class="benefits__wrap">
+        <div class="benefits__cards">
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <img src="assets/images/second-section/guard.svg" alt="guard" class="benefits__card-thumb" />
+            </div>
+            <h3 class="benefits__card-title">
+              Уверенность и стабильность! Мы на рынке с 2015г.
+            </h3>
+          </div>
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <img src="assets/images/second-section/phone.svg" alt="phone" class="benefits__card-thumb" />
+            </div>
+            <h3 class="benefits__card-title">
+              Большой выбор мобильных приложений и аддонов
+            </h3>
+          </div>
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <img src="assets/images/second-section/support.svg" alt="support" class="benefits__card-thumb" />
+            </div>
+            <h3 class="benefits__card-title">
+              Дружелюбная и квалифицированная поддержка
+            </h3>
+          </div>
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <img src="assets/images/second-section/money(3) 1.svg" alt="money" class="benefits__card-thumb" />
+            </div>
+            <h3 class="benefits__card-title">
+              Эффективная монетизация Pop-under, Push, In-App, FB, Google и
+              других источников трафика
+            </h3>
+          </div>
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <img src="assets/images/second-section/diamond.svg" alt="diamond" class="benefits__card-thumb" />
+            </div>
+            <h3 class="benefits__card-title">
+              Эксклюзивные предложения благодаря собственному сильному баингу
+            </h3>
+          </div>
+          <div class="benefits__card">
+            <div class="benefits__card-pic">
+              <img src="assets/images/second-section/wallet(5) 1.svg" alt="wallet" class="benefits__card-thumb" />
+            </div>
+            <h3 class="benefits__card-title">
+              Стабильные выплаты 1 раз в неделю от $100 после проверки
+              качества
+            </h3>
+          </div>
+        </div>
+      </div>
+      <div class="btn-container">
+        <div>
+          <a href="./register.html" class="button" style="vertical-align: middle"><span>РЕГИСТРАЦИЯ </span></a>
+        </div>
+      </div>
+    </section>
+    <section class="section-third">
+      <img class="third-background" src="./assets/images/third-section/top-background.png" alt="background" />
+      <img class="third-background-mob" src="./assets/images/third-section/top-background-mob.png" alt="background" />
+      <div class="third-header">
+        <h2 class="third-title sections-titles">Мы всегда в топе!</h2>
+        <p class="marketing">
+          Мы прямой рекламодатель с собственными офферами, которые входят в
+          топ-чарты AppStore и GooglePlay.
+        </p>
+      </div>
+      <div class="third-columns">
+        <div class="top">
+          <p class="columns-tittle">Топ</p>
+          <p class="columns-text">
+            Наши офферы входят в ТОПы в AppStore и Google Play
+          </p>
+        </div>
+        <div class="offers">
+          <p class="columns-tittle">Офферы</p>
+          <p class="columns-text">
+            Мы делаем собственные белые мобильные офферы, которые вы не
+            найдете ни в одной другой партнерке
+          </p>
+        </div>
+        <div class="payment">
+          <p class="columns-tittle">2.5$</p>
+          <p class="columns-text">
+            Мы платим до $2.5 за инсталл и принимаем трафик со всего мира
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="section-fourth">
+      <div class="first-part">
+        <div class="first-header">
+          <h2 class="first-tittle sections-titles">
+            Еженедельные выплаты <span class="highlight">от $100</span>
+          </h2>
+          <p class="first-text">
+            На удобную для вас платежную систему из перечисленных ниже
+          </p>
+        </div>
+        <div class="first-payment">
+          <img class="wire" src="./assets/images/fourth-section/first-part/wire-transfer.png" alt="wire-transfer" />
+          <img class="cap" src="./assets/images/fourth-section/first-part/capitalist.png" alt="capitalist" />
+          <img class="web" src="./assets/images/fourth-section/first-part/web-money.png" alt="web-money" />
+          <img class="pay" src="./assets/images/fourth-section/first-part/payoneer.png" alt="payoneer" />
+          <img class="bit" src="./assets/images/fourth-section/first-part/bitcoin.png" alt="bitcoin" />
+          <img class="tet" src="./assets/images/fourth-section/first-part/tether.png" alt="tether" />
+        </div>
+      </div>
+      <div class="second-part">
+        <h2 class="second-tittle sections-titles">Топовые вертикали</h2>
+        <div class="boxes">
+          <div class="installs verticals">
+            <img class="section-pic" src="./assets/images/fourth-section/second-part/download.png" alt="installs" />
+            <div class="box-container">
+              <h3 class="subtittle">Installs</h3>
+              <p class="second-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna.
+              </p>
+            </div>
+          </div>
+          <div class="utilities verticals">
+            <img class="section-pic" src="./assets/images/fourth-section/second-part/settings.png" alt="utilities" />
+            <div class="box-container">
+              <h3 class="subtittle">Utilities</h3>
+              <p class="second-text">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+          </div>
+          <div class="apk verticals">
+            <img class="section-pic" src="./assets/images/fourth-section/second-part/apk.png" alt="apk" />
+            <div class="box-container">
+              <h3 class="subtittle">APK</h3>
+              <p class="second-text">
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa
+                qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+          </div>
+          <div class="addons verticals">
+            <img class="section-pic" src="./assets/images/fourth-section/second-part/addons.png" alt="addons" />
+            <div class="box-container">
+              <h3 class="subtittle">Addons</h3>
+              <p class="second-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna.
+              </p>
+            </div>
+          </div>
+          <div class="gambling verticals">
+            <img class="section-pic" src="./assets/images/fourth-section/second-part/gambling.png" alt="gambling" />
+            <div class="box-container">
+              <h3 class="subtittle">Gambling/Betting</h3>
+              <p class="second-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                do eiusmod tempor incididunt ut labore et dolore magna.
+              </p>
+            </div>
+          </div>
+          <div class="new-vertical verticals">
+            <img class="section-pic" src="./assets/images/fourth-section/second-part/new-vertical.png"
+              alt="new-vertical" />
+            <div class="box-container">
+              <h3 class="subtittle">Новые вертикали</h3>
+              <p class="second-text">
+                Мы всегда в поиске новых трендовых вертикалей для наших
+                вебмастеров
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-fifth">
+      <div class="fifth-partners">
+        <h2 class="fifth-title uppercase-title">Нам доверяют</h2>
+        <div class="fifth-pic-box">
+          <img src="./assets/images/fifth-section/Dostavista.png" alt="Dostavista" />
+          <img src="./assets/images/fifth-section/lamoda.png" alt="lamoda" />
+          <img src="./assets/images/fifth-section/joom.png" alt="joom" />
+          <img src="./assets/images/fifth-section/lazada.png" alt="lazada" />
+          <img src="./assets/images/fifth-section/binomo.png" alt="binomo" />
+          <img src="./assets/images/fifth-section/stoloto.png" alt="stoloto" />
+          <img src="./assets/images/fifth-section/betboom .png" alt="betboom" />
+          <img src="./assets/images/fifth-section/black-star.png" alt="black-star" />
+          <img src="./assets/images/fifth-section/league.png" alt="league" />
+          <img src="./assets/images/fifth-section/root.png" alt="root" />
+          <img src="./assets/images/fifth-section/psafe.png" alt="psafe" />
+          <img src="./assets/images/fifth-section/flowwow.png" alt="flowwow" />
+          <img src="./assets/images/fifth-section/williamhill.png" alt="william hill" />
+          <img src="./assets/images/fifth-section/mailru.png" alt="mail" />
+          <img src="./assets/images/fifth-section/fonbet.png" alt="fonbet" />
+          <img src="./assets/images/fifth-section/aliexpress.png" alt="aliexpress" />
+        </div>
+        <p class="fifth-subtitle">и десятки других популярных компаний</p>
+      </div>
+      <div class="fifth-feedback">
+        <img class="back-desktop" src="./assets/images/fifth-section/back-desktop.png" alt="background">
+        <img class="back-mob" src="./assets/images/fifth-section/back-mob.png" alt="back-mob">
+        <h2 class="fifth-title nonecase-tittle">
+          Остались вопросы? Готовы ответить!
+        </h2>
+        <form class="feedback-form" id="feedback">
+          <input type="text" required placeholder="Ваше имя" class="feedback-field" />
+          <input type="text" required placeholder="Ваши контакты" class="feedback-field">
+          <input type="text" required placeholder="Ваше предложение" class="feedback-field">
+          <div class="feedback-send">
+            <button type="submit" class="feedback-bttn">
+              <span class="feedback-text">
+                Написать нам
+              </span>
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="footer-cotainer">
+      <img class="footer-logo" src="./assets/images/header/logo.png" alt="логотип" />
+      <div class="footer-text rights">
+        <p class="all-rights">Все права защищены.</p>
+        <p class="copy">Traffic Shark @ 2015-2021</p>
+      </div>
+      <div class="footer-text terms">Terms & Conditions</div>
+      <div class="footer-text privacy">Privacy police</div>
+      <div class="choice-web">
+        <a href="#" class="footer-text choice-text">
+          <img src="./assets/images/footer/arrow.png" alt="стрела" />
+          Вебмастерам
+        </a>
+      </div>
+      <div class="choice-mark">
+        <a href="#" class="footer-text choice-text">
+          <img src="./assets/images/footer/arrow.png" alt="стрела" />
+          Рекламодателям
+        </a>
+      </div>
+      <div class="footer-contacts">
+        <a class="footer-text contact" href="mailto:partner@trafficshark.pro">
+          <img src="./assets/images/footer/email.png" alt="email" />
+          partner@trafficshark.pro
+        </a>
+        <a class="footer-text contact" href="tg:@telegramname">
+          <img src="./assets/images/footer/telegram.png" alt="telegram" />
+          @telegramname
+        </a>
+        <a class="footer-text contact" href="skype:@skypename?call">
+          <img src="./assets/images/footer/skype.png" alt="skype" />
+          @skypename
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+    integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+    integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+    crossorigin="anonymous"></script>
+  <script src="./assets/scripts/scripts.js"></script>
+</body>
+
 </html>
