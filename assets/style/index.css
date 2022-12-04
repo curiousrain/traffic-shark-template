@@ -1339,7 +1339,7 @@ a:visited {
     }
 
     .wrapper {
-        max-width: 1023px;
+        max-width: 767px;
         margin: 0 auto;
     }
 
@@ -1351,7 +1351,7 @@ a:visited {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 10px;
-        padding: 0 165px;
+        padding: 0 8px;
     }
 
     .benefits__card-pic {
@@ -1433,6 +1433,7 @@ a:visited {
         opacity: 1;
         right: 0;
     }
+
 
 /* MAIN */
 
