@@ -2,6 +2,10 @@ body {
     color: #FFFFFF;
 }
 
+.choice {
+    align-items: center;
+}
+
 .register-container {
     position: relative;
 }
