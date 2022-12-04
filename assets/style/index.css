@@ -490,12 +490,7 @@ a:visited {
         border-radius: 40px;
     }
 
-    /*.button-color-blue {background-color: #2E9ADB;
-    }*/
-
-    /* .button-color-green {background-color: #55B570;
-    }*/
-
+ 
     .web-choice {
         border-right: 2px solid #F3F3F3;
     }
@@ -1043,14 +1038,14 @@ a:visited {
         padding-top: 131px;
     }
 
-    .up_bg {
-        width: 100%;
-        height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: -1;
-    }
+.up_bg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
 
     .up_bg-mob {
         display: none;
@@ -1080,14 +1075,14 @@ a:visited {
         color: white;
     }
 
-    .exp-container {
-        display: grid;
-        grid-template-columns: repeat(4, 206px);
-        grid-template-rows: 1fr;
-        justify-content: space-evenly;
-        grid-template-areas:
-            "exp1 exp2 exp3 exp4";
-    }
+.exp-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    justify-content: space-evenly;
+    grid-template-areas:
+        "exp1 exp2 exp3 exp4";
+}
 
     .exp-tittle {
         font-size: 30px;
@@ -1104,30 +1099,23 @@ a:visited {
         color: white;
         padding-bottom: 30px;
 
-    }
+.exp1,
+.exp2,
+.exp3 {border-right: 2px solid rgba(255, 255, 255, 0.25);}
 
-    .exp-text {
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 19px;
-        color: white;
-        padding-bottom: 30px;
-    }
-
-    .main-choice {
-        background: #FFFFFF;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
-        display: grid;
-        grid-template-columns: 376px 376px;
-        grid-template-rows: 1fr;
-        grid-template-areas: "wc-text mc-text"
-            "web-button mc-button";
-        align-items: center;
-        padding: 25px;
-        padding-bottom: 35px;
-        margin-bottom: 10px;
-    }
+.main-choice {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    display: grid;
+    grid-template-columns: 376px 376px;
+    grid-template-rows: 1fr;
+    grid-template-areas: "wc-text mc-text"
+        "web-button mc-button";
+    align-items: center;
+    padding-bottom: 35px;
+    margin-bottom: 10px;
+}
 
     .wc-text,
     .mc-text {
@@ -1152,23 +1140,10 @@ a:visited {
         border-radius: 40px;
     }
 
-    .choice-button {
-        font-family: 'Gilroy';
-        font-style: normal;
-        font-weight: 900;
-        font-size: 20px;
-        line-height: 24px;
-        text-align: center;
-        text-transform: uppercase;
-        color: #FFFFFF;
-        width: 354px;
-        height: 80px;
-        border-radius: 40px;
-    }
-
-    .web-choice {
-        border-right: 2px solid #F3F3F3;
-    }
+.web-choice {
+    border-right: 2px
+    solid #F3F3F3;
+}
 
 
     /* 3 часть */
@@ -1545,19 +1520,18 @@ a:visited {
 
     /* MAIN */
 
-    /*  section-first */
-    /*ещё в процессе*/
-    .section-first {
-        font-family: 'Gilroy';
-        position: relative;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        text-align: center;
-        align-items: center;
-        padding-top: 14px;
-        justify-content: center;
-    }
+/*  section-first */ 
+.section-first {
+    font-family: 'Gilroy';
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    padding-top: 14px;
+    justify-content: center;
+}
 
     .up_bg-mob {
         width: 100%;
@@ -1572,13 +1546,15 @@ a:visited {
         display: none;
     }
 
-    .h-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding-top: 25px;
-        margin-bottom: 32px;
-    }
+.h1 {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 40px;
+    color: white;
+    text-transform: uppercase;
+    padding: 0 10px;
+    margin-bottom: 14px;   
+}
 
     .h1 {
         font-size: 32px;
@@ -1638,27 +1614,16 @@ a:visited {
         border-bottom: 2px solid rgba(255, 255, 255, 0.25);
     }
 
-    .exp3,
-    .exp4 {
-        padding-top: 20px;
-    }
-
-
-    .main-choice {
-        background: #FFFFFF;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
-        /*display: grid;
-    grid-template-columns: 500px 500px;
-    grid-template-rows: 1fr;
-    grid-template-areas: "wc-text mc-text"
-        "web-button mc-button";*/
-        width: 328px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
+.main-choice {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+    width: 328px;
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
 
     .wc-text,
     .mc-text {
@@ -1689,17 +1654,6 @@ a:visited {
         height: 60px;
         border-radius: 40px;
     }
-
-    .web-choice {
-        border-bottom: 1px solid #F3F3F3;
-        padding-bottom: 20px;
-    }
-
-    .web-choice {
-        border-right: 2px solid #F3F3F3;
-    }
-
-
 
     /* 3 часть */
 
