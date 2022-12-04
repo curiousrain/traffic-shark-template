@@ -85,7 +85,7 @@ body {
         position: absolute;
         width: 100%;
         z-index: -1;
-        height: 130vh;
+        height: 120%;
     }
 
     .reg-mob-back {

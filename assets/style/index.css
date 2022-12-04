@@ -399,7 +399,7 @@ a:visited {
     .up_bg-mob {
         display: none;
     }
-    
+
     .h-container {
         display: flex;
         flex-direction: column;
@@ -493,12 +493,11 @@ a:visited {
     /*.button-color-blue {background-color: #2E9ADB;
     }*/
 
-   /* .button-color-green {background-color: #55B570;
+    /* .button-color-green {background-color: #55B570;
     }*/
 
     .web-choice {
-        border-right: 2px
-        solid #F3F3F3;
+        border-right: 2px solid #F3F3F3;
     }
 
     /* 2 часть*/
@@ -772,6 +771,43 @@ a:visited {
         color: #939393;
     }
 
+    .fifth-feedback {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .fifth-title {}
+
+    .nonecase-tittle {}
+
+    .feedback-form {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        max-width: 730px;
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .feedback-field {
+        padding: 28px 0 28px 30px;
+        background: #FFFFFF;
+        border-radius: 40px;
+    }
+
+    .feedback-send {
+        text-align: center;
+    }
+
+    .feedback-bttn {
+        border: 3px solid #FFFFFF;
+        background: #FFFFFF;
+        border-radius: 40px;
+    }
+
+    .feedback-text {}
+
     /* FOOTER */
     .footer-cotainer {
         grid-template-columns: repeat(3, 1fr);
@@ -996,16 +1032,16 @@ a:visited {
 
 
 
-/*  section-first */
-.section-first {
-    font-family: 'Gilroy';
-    position: relative;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 131px;
-}
+    /*  section-first */
+    .section-first {
+        font-family: 'Gilroy';
+        position: relative;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 131px;
+    }
 
     .up_bg {
         width: 100%;
@@ -1016,59 +1052,59 @@ a:visited {
         z-index: -1;
     }
 
-.up_bg-mob {
-    display: none;
-}
+    .up_bg-mob {
+        display: none;
+    }
 
-.h-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 115px;
-    margin-bottom: 100px;
-}
+    .h-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 115px;
+        margin-bottom: 100px;
+    }
 
-.h1 {
-    font-size: 43px;
-    font-weight: 900;
-    line-height: 100%;
-    color: white;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-}
+    .h1 {
+        font-size: 43px;
+        font-weight: 900;
+        line-height: 100%;
+        color: white;
+        text-transform: uppercase;
+        margin-bottom: 8px;
+    }
 
-.h3 {
-    font-weight: 500;
-    font-size: 17px;
-    line-height: 24px;
-    color: white;
-}
+    .h3 {
+        font-weight: 500;
+        font-size: 17px;
+        line-height: 24px;
+        color: white;
+    }
 
-.exp-container {
-    display: grid;
-    grid-template-columns: repeat(4, 206px);
-    grid-template-rows: 1fr;
-    justify-content: space-evenly;
-    grid-template-areas:
-        "exp1 exp2 exp3 exp4";
-}
+    .exp-container {
+        display: grid;
+        grid-template-columns: repeat(4, 206px);
+        grid-template-rows: 1fr;
+        justify-content: space-evenly;
+        grid-template-areas:
+            "exp1 exp2 exp3 exp4";
+    }
 
-.exp-tittle {
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 49px;
-    color: white;
-    margin-bottom: 0px;
-}
+    .exp-tittle {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 49px;
+        color: white;
+        margin-bottom: 0px;
+    }
 
-.exp-text {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 19px;
-    color: white;
-    padding-bottom: 30px;
-    
-}
+    .exp-text {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 19px;
+        color: white;
+        padding-bottom: 30px;
+
+    }
 
     .exp-text {
         font-size: 16px;
@@ -1078,43 +1114,43 @@ a:visited {
         padding-bottom: 30px;
     }
 
-.main-choice {
-    background: #FFFFFF;
-    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-    border-radius: 8px;
-    display: grid;
-    grid-template-columns: 376px 376px;
-    grid-template-rows: 1fr;
-    grid-template-areas: "wc-text mc-text"
-        "web-button mc-button";
-    align-items: center;
-    padding: 25px;
-    padding-bottom: 35px;
-    margin-bottom: 10px;
-}
+    .main-choice {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        display: grid;
+        grid-template-columns: 376px 376px;
+        grid-template-rows: 1fr;
+        grid-template-areas: "wc-text mc-text"
+            "web-button mc-button";
+        align-items: center;
+        padding: 25px;
+        padding-bottom: 35px;
+        margin-bottom: 10px;
+    }
 
-.wc-text,
-.mc-text {
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 24px;
-    padding: 25px;
-    padding-bottom: 18px;
-}
+    .wc-text,
+    .mc-text {
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 24px;
+        padding: 25px;
+        padding-bottom: 18px;
+    }
 
-.choice-button {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 15px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 255px;
-    height: 65px;
-    border-radius: 40px;
-}
+    .choice-button {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 255px;
+        height: 65px;
+        border-radius: 40px;
+    }
 
     .choice-button {
         font-family: 'Gilroy';
@@ -1509,142 +1545,155 @@ a:visited {
 
     /* MAIN */
 
-/*  section-first */   /*ещё в процессе*/
-.section-first {
-    font-family: 'Gilroy';
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    text-align: center;
-    align-items: center;
-    padding-top: 14px;
-    justify-content: center;
-}
+    /*  section-first */
+    /*ещё в процессе*/
+    .section-first {
+        font-family: 'Gilroy';
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        text-align: center;
+        align-items: center;
+        padding-top: 14px;
+        justify-content: center;
+    }
 
-.up_bg-mob {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-}
-.up_bg {
-    display: none;
-}
+    .up_bg-mob {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+    }
 
-.h-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 25px;
-    margin-bottom: 32px;
-}
+    .up_bg {
+        display: none;
+    }
 
-.h1 {
-    font-size: 32px;
-    font-weight: 900;
-    line-height: 40px;
-    color: white;
-    text-transform: uppercase;
-    padding-left: 70px;
-    padding-right: 70px;
-    margin-bottom: 14px;   
-}
+    .h-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 25px;
+        margin-bottom: 32px;
+    }
 
-.h3 {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 19px;
-    color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-}
+    .h1 {
+        font-size: 32px;
+        font-weight: 900;
+        line-height: 40px;
+        color: white;
+        text-transform: uppercase;
+        padding-left: 70px;
+        padding-right: 70px;
+        margin-bottom: 14px;
+    }
 
-.exp-container {
-    display: grid;
-    grid-template-columns: repeat(2, 147px);
-    grid-template-rows: 1fr 1fr;
-    justify-content: space-evenly;
-    grid-template-areas:
-        "exp1 exp2"
-        "exp3 exp4";
-}
+    .h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: white;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
 
-.exp-tittle {
-    font-size: 30px;
-    font-weight: 800;
-    line-height: 37px;
-    color: white;
-    margin-bottom: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
-}
+    .exp-container {
+        display: grid;
+        grid-template-columns: repeat(2, 147px);
+        grid-template-rows: 1fr 1fr;
+        justify-content: space-evenly;
+        grid-template-areas:
+            "exp1 exp2"
+            "exp3 exp4";
+    }
 
-.exp-text {
-    font-size: 13px;
-    font-weight: 500;
-    line-height: 15px;
-    color: white;
-    padding-bottom: 5px;
-}
+    .exp-tittle {
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 37px;
+        color: white;
+        margin-bottom: 0px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 
-.exp1,
-.exp3 {border-right: 2px solid rgba(255, 255, 255, 0.25);}
+    .exp-text {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        color: white;
+        padding-bottom: 5px;
+    }
 
-.exp1,
-.exp2 {border-bottom: 2px solid rgba(255, 255, 255, 0.25);}
+    .exp1,
+    .exp3 {
+        border-right: 2px solid rgba(255, 255, 255, 0.25);
+    }
 
-.exp3, .exp4 {padding-top: 20px;}
+    .exp1,
+    .exp2 {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+    }
+
+    .exp3,
+    .exp4 {
+        padding-top: 20px;
+    }
 
 
-.main-choice {
-    background: #FFFFFF;
-    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-    border-radius: 8px;
-    /*display: grid;
+    .main-choice {
+        background: #FFFFFF;
+        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+        border-radius: 8px;
+        /*display: grid;
     grid-template-columns: 500px 500px;
     grid-template-rows: 1fr;
     grid-template-areas: "wc-text mc-text"
         "web-button mc-button";*/
         width: 328px;
-    display: flex;    
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-}
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
 
-.wc-text,
-.mc-text {
-    font-size: 13px;
-    font-style: medium;
-    font-weight: 500;
-    line-height: 20px;
-    padding: 14px;
-    margin-bottom: 5px;
-    
-}
+    .wc-text,
+    .mc-text {
+        font-size: 13px;
+        font-style: medium;
+        font-weight: 500;
+        line-height: 20px;
+        padding: 14px;
+        margin-bottom: 5px;
 
-.mc-text {padding-right: 22px;
-    padding-left: 22px;}
+    }
 
-.choice-button {
-    font-family: 'Gilroy';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    width: 256px;
-    height: 60px;
-    border-radius: 40px;
-}
+    .mc-text {
+        padding-right: 22px;
+        padding-left: 22px;
+    }
 
-.web-choice {border-bottom: 1px solid #F3F3F3;
-padding-bottom: 20px;}
+    .choice-button {
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px;
+        line-height: 24px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        width: 256px;
+        height: 60px;
+        border-radius: 40px;
+    }
+
+    .web-choice {
+        border-bottom: 1px solid #F3F3F3;
+        padding-bottom: 20px;
+    }
 
     .web-choice {
         border-right: 2px solid #F3F3F3;
