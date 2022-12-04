@@ -86,6 +86,52 @@ a:visited {
     color: unset;
 }
 
+/*header*/
+
+.header-container {
+    display: grid;
+    align-items: stretch;
+}
+
+.choice {
+    display: flex;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #565656;
+}
+
+.choice-link {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.choice-link.active:after {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 5px;
+    background-color: #2E9ADB;
+    content: "";
+    top: 0px;
+}
+
+.sign-register {
+    font-weight: 800;
+    text-align: center;
+    text-transform: uppercase;
+    color: #55B570;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.change-lang-button {
+    display: flex;
+    align-items: center;
+}
+
 
 .language-change {
     background: #F9F9F9;
@@ -137,18 +183,163 @@ a:visited {
     left: unset;
 }
 
+/*3 часть*/
+
+.section-third {
+    position: relative;
+    margin-bottom: 92px;
+}
+
+.third-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-title {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.sections-titles {
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.marketing {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.top {
+    grid-column: 1/2;
+    text-align: center;
+}
+
+.columns-tittle {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #FFFFFF;
+}
+
+.columns-text {
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.offers {
+    text-align: center;
+}
 
 
+.payment {
+    text-align: center;
+}
+
+/*4 часть*/
+
+.first-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.first-tittle {
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 0;
+}
+
+.highlight {
+    color: #2E9ADB;
+}
+
+.first-payment {
+    display: flex;
+}
+
+.first-text {
+    font-weight: 500;
+    color: #939393;
+}
+
+
+.subtittle {
+    font-weight: 900;
+}
+
+.second-text {
+    font-weight: 300;
+}
+
+
+.verticals {
+    background-image: url(../images/fourth-section/second-part/background.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% 260px;
+    box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
+    border-radius: 8px;
+}
+
+/*footer*/
+.footer-cotainer {
+    display: grid;
+}
+
+.rights {
+    font-weight: 500;
+    color: #7E7E7E;
+}
+
+.all-rights {
+    margin: 0;
+}
+
+.copy {
+    margin: 0;
+}
+
+.terms,
+.privacy {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #2E9ADB;
+}
+
+.choice-text {
+    font-weight: 500;
+    color: #1C1C1C;
+    display: flex;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Gilroy';
+    font-style: normal;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+}
+
+.contact {
+    display: flex;
+    gap: 5px;
+    color: #000000;
+}
 
 @media screen and (min-width:1024px) {
 
     /* HEADER */
     .header-container {
-        display: grid;
         grid-template-columns: 110px 1fr 238px 50px;
         grid-template-rows: 1fr;
-        align-items: center;
-        margin: 0 100px;
+        margin: 0 170px 0 100px;
         gap: 30px;
     }
 
@@ -157,12 +348,9 @@ a:visited {
     }
 
     .choice {
-        display: flex;
-        font-weight: 700;
         justify-content: flex-end;
-        text-transform: uppercase;
-        color: #565656;
         gap: 50px;
+        padding-right: 50px;
     }
 
     .header-text {
@@ -171,14 +359,6 @@ a:visited {
     }
 
     .sign-register {
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
-        color: #55B570;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
         border: 1px solid #F4F4F4;
         border-top: none;
         border-bottom: none;
@@ -318,7 +498,7 @@ a:visited {
 
     .second {
         padding-top: 80px;
-    } 
+    }
 
     .second__title {
         font-weight: 900;
@@ -341,7 +521,7 @@ a:visited {
 
     .benefits__cards {
         display: grid;
-        grid-template-columns: repeat(3, 1fr); 
+        grid-template-columns: repeat(3, 1fr);
         grid-column-gap: 25px;
         padding: 0 165px;
     }
@@ -349,10 +529,10 @@ a:visited {
     .benefits__card-pic {
         max-width: 65px;
         margin-bottom: 30px;
-        position:relative;
+        position: relative;
         display: block;
         margin-left: auto;
-        margin-right: auto 
+        margin-right: auto
     }
 
     .benefits__card-thumb {
@@ -425,19 +605,19 @@ a:visited {
         opacity: 1;
         right: 0;
     }
-  
-      /* 3 часть */
+
+    /* 3 часть */
 
     .section-third {
-        position: relative;
         height: 523px;
-        margin-bottom: 189px;
+        margin-bottom: 0;
     }
 
     .third-background {
         position: absolute;
         z-index: -1;
         width: 100%;
+        max-height: 540px;
     }
 
     .third-background-mob {
@@ -445,30 +625,13 @@ a:visited {
     }
 
     .third-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding-top: 105px;
         margin-bottom: 80px;
     }
 
-    .third-title {
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
-
     .sections-titles {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-    }
-
-    .marketing {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #FFFFFF;
     }
 
     .third-columns {
@@ -480,34 +643,26 @@ a:visited {
 
     .top {
         grid-column: 1/2;
-        text-align: center;
     }
 
     .columns-tittle {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 79px;
         line-height: 19px;
-        color: #FFFFFF;
         padding-bottom: 30px;
     }
 
     .columns-text {
-        font-weight: 700;
         font-size: 16px;
         line-height: 19px;
-        color: #FFFFFF;
     }
 
     .offers {
         grid-column: 2/3;
-        text-align: center;
     }
 
 
     .payment {
         grid-column: 3/4;
-        text-align: center;
     }
 
     /* 4 часть */
@@ -517,33 +672,21 @@ a:visited {
     }
 
     .first-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         margin-bottom: 80px;
+        padding-top: 97px;
     }
 
     .first-tittle {
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-        text-transform: uppercase;
-        padding-bottom: 0;
-    }
-
-    .highlight {
-        color: #2E9ADB;
     }
 
     .first-text {
-        font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #939393;
     }
 
     .first-payment {
-        display: flex;
         flex-direction: row;
         gap: 30px;
         align-items: center;
@@ -556,10 +699,11 @@ a:visited {
 
     .boxes {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(3, 350px);
         grid-template-rows: repeat(2, 1fr);
-        padding: 80px 205px;
+        padding: 80px 0;
         gap: 30px;
+        justify-content: center;
     }
 
 
@@ -572,32 +716,19 @@ a:visited {
     }
 
     .subtittle {
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
         margin-top: 47px;
     }
 
     .second-text {
-        font-weight: 300;
         font-size: 14px;
         line-height: 16px;
     }
 
 
-    .verticals {
-        background-image: url(../images/fourth-section/second-part/background.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100% 260px;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
-    }
-
-
     /* FOOTER */
     .footer-cotainer {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 60px);
         margin: 0 0 52px 100px;
@@ -612,18 +743,8 @@ a:visited {
     .rights {
         grid-column: 1/2;
         grid-row: 2/3;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #7E7E7E;
-    }
-
-    .all-rights {
-        margin: 0;
-    }
-
-    .copy {
-        margin: 0;
     }
 
     .terms {
@@ -633,12 +754,8 @@ a:visited {
 
     .terms,
     .privacy {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        text-transform: uppercase;
-        color: #2E9ADB;
-
     }
 
     .privacy {
@@ -657,34 +774,16 @@ a:visited {
     }
 
     .choice-text {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #1C1C1C;
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-text {
-        font-family: 'Gilroy';
-        font-style: normal;
     }
 
     .footer-contacts {
         grid-column: 3/4;
         grid-row: 2/4;
-        display: flex;
-        flex-direction: column;
         gap: 30px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .contact {
-        display: flex;
-        gap: 5px;
-        color: #000000;
     }
 }
 
@@ -693,10 +792,8 @@ a:visited {
     /* HEADER */
 
     .header-container {
-        display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: 1fr;
-        align-items: center;
         margin: 15px;
         gap: 30px;
     }
@@ -707,11 +804,7 @@ a:visited {
 
     .choice {
         grid-column: 2/3;
-        display: flex;
-        font-weight: 700;
         justify-content: flex-end;
-        text-transform: uppercase;
-        color: #565656;
         gap: 50px;
     }
 
@@ -721,17 +814,9 @@ a:visited {
     }
 
     .sign-register {
-        font-weight: 800;
-        text-align: center;
-        text-transform: uppercase;
-        color: #55B570;
-        height: 100%;
         border: 1px solid #F4F4F4;
         border-top: none;
         border-bottom: none;
-        display: flex;
-        align-items: center;
-        justify-content: center;
     }
 
     .sign-up {
@@ -756,7 +841,7 @@ a:visited {
 
     .second {
         padding-top: 32px;
-    } 
+    }
 
     .second__title {
         font-weight: 900;
@@ -779,7 +864,7 @@ a:visited {
 
     .benefits__cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 10px;
         padding: 0 165px;
     }
@@ -787,10 +872,10 @@ a:visited {
     .benefits__card-pic {
         max-width: 48px;
         margin-bottom: 20px;
-        position:relative;
+        position: relative;
         display: block;
         margin-left: auto;
-        margin-right: auto 
+        margin-right: auto
     }
 
     .benefits__card-thumb {
@@ -845,7 +930,7 @@ a:visited {
         position: relative;
         transition: 0.5s;
     }
-    
+
     .button span:after {
         content: '\00bb';
         position: absolute;
@@ -854,17 +939,17 @@ a:visited {
         right: -20px;
         transition: 0.5s;
     }
-    
+
     .button:hover span {
         padding-right: 25px;
     }
-    
+
     .button:hover span:after {
         opacity: 1;
         right: 0;
     }
-    
-    
+
+
 
 /*  section-first */
 .section-first {
@@ -980,12 +1065,10 @@ a:visited {
     /* 3 часть */
 
     .section-third {
-        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
-        margin-bottom: 92px;
     }
 
     .third-background {
@@ -1000,30 +1083,13 @@ a:visited {
     }
 
     .third-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding: 35px 16px 0 16px;
         margin-bottom: 20px;
     }
 
-    .third-title {
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
-
     .sections-titles {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-    }
-
-    .marketing {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 24px;
-        color: #FFFFFF;
     }
 
     .third-columns {
@@ -1033,34 +1099,17 @@ a:visited {
         padding-left: 10px;
     }
 
-    .top {
-        text-align: center;
-    }
-
     .columns-tittle {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 60px;
         line-height: 60px;
-        color: #FFFFFF;
     }
 
     .columns-text {
-        font-weight: 700;
         font-size: 16px;
         line-height: 19px;
-        color: #FFFFFF;
         padding: 0 10px;
     }
 
-    .offers {
-        text-align: center;
-    }
-
-
-    .payment {
-        text-align: center;
-    }
 
     /* 4 часть */
 
@@ -1073,39 +1122,24 @@ a:visited {
     }
 
     .first-header {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
         margin-bottom: 32px;
     }
 
     .first-tittle {
-        font-weight: 900;
         font-size: 30px;
         line-height: 37px;
-        text-transform: uppercase;
-        padding-bottom: 0;
-    }
-
-    .highlight {
-        color: #2E9ADB;
     }
 
     .first-text {
-        font-weight: 500;
         font-size: 20px;
         line-height: 24px;
-        color: #939393;
-
     }
 
     .first-payment {
-        display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
         gap: 15px;
-
     }
 
     .wire {
@@ -1159,7 +1193,6 @@ a:visited {
 
     .subtittle {
         text-align: center;
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
         margin-top: 75px;
@@ -1167,19 +1200,12 @@ a:visited {
 
     .second-text {
         text-align: center;
-        font-weight: 300;
         font-size: 14px;
         line-height: 16px;
     }
 
 
     .verticals {
-        background-image: url(../images/fourth-section/second-part/background.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100% 260px;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1188,7 +1214,6 @@ a:visited {
 
     /* FOOTER */
     .footer-cotainer {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 60px);
         margin-left: 20px;
@@ -1203,18 +1228,8 @@ a:visited {
     .rights {
         grid-column: 1/2;
         grid-row: 2/3;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #7E7E7E;
-    }
-
-    .all-rights {
-        margin: 0;
-    }
-
-    .copy {
-        margin: 0;
     }
 
     .terms {
@@ -1224,12 +1239,8 @@ a:visited {
 
     .terms,
     .privacy {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        text-transform: uppercase;
-        color: #2E9ADB;
-
     }
 
     .privacy {
@@ -1248,34 +1259,16 @@ a:visited {
     }
 
     .choice-text {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #1C1C1C;
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-text {
-        font-family: 'Gilroy';
-        font-style: normal;
     }
 
     .footer-contacts {
         grid-column: 3/4;
         grid-row: 2/4;
-        display: flex;
-        flex-direction: column;
         gap: 30px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .contact {
-        display: flex;
-        gap: 5px;
-        color: #000000;
     }
 }
 
@@ -1283,55 +1276,46 @@ a:visited {
 
     /* HEADER */
     .header-container {
-        display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, auto);
-        align-items: center;
-        margin: 15px;
-        gap: 15px;
+        column-gap: 15px;
     }
 
     .header-logo {
         grid-column: 1/2;
         grid-row: 1/2;
+        padding: 12px;
     }
 
     .choice {
         grid-column: 1/4;
         grid-row: 2/3;
         display: flex;
-        font-weight: 700;
-        justify-content: flex-end;
-        text-transform: uppercase;
-        color: #565656;
-        gap: 50px;
-    }
-
-    .header-text {
-        font-size: 13px;
-        line-height: 16px;
-    }
-
-    .sign-register {
-        font-weight: 800;
         text-align: center;
-        text-transform: uppercase;
-        color: #55B570;
-        height: 100%;
-        border-right: 1px solid #F4F4F4;
-        display: flex;
-        align-items: center;
+        height: 40px;
+        box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05) inset;
+    }
+
+    .choice-link {
+        flex: 1;
         justify-content: center;
     }
 
-    .sign-up {}
+    .choice-link.active:after {
+        height: 2px;
+    }
+
+    .header-text {
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+    .sign-register {
+        border-right: 1px solid #F4F4F4;
+    }
 
     .register {
         display: none;
-    }
-
-    .change-lang-button {
-        padding-left: 16px;
     }
 
     /* 2 часть*/
@@ -1342,7 +1326,7 @@ a:visited {
 
     .second {
         padding-top: 32px;
-    } 
+    }
 
     .second__title {
         font-weight: 900;
@@ -1365,7 +1349,7 @@ a:visited {
 
     .benefits__cards {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); 
+        grid-template-columns: repeat(2, 1fr);
         grid-column-gap: 10px;
         padding: 0 165px;
     }
@@ -1373,10 +1357,10 @@ a:visited {
     .benefits__card-pic {
         max-width: 48px;
         margin-bottom: 20px;
-        position:relative;
+        position: relative;
         display: block;
         margin-left: auto;
-        margin-right: auto 
+        margin-right: auto
     }
 
     .benefits__card-thumb {
@@ -1431,7 +1415,7 @@ a:visited {
         position: relative;
         transition: 0.5s;
     }
-    
+
     .button span:after {
         content: '\00bb';
         position: absolute;
@@ -1440,11 +1424,11 @@ a:visited {
         right: -20px;
         transition: 0.5s;
     }
-    
+
     .button:hover span {
         padding-right: 25px;
     }
-    
+
     .button:hover span:after {
         opacity: 1;
         right: 0;
@@ -1567,12 +1551,10 @@ a:visited {
     /* 3 часть */
 
     .section-third {
-        position: relative;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         text-align: center;
-        margin-bottom: 92px;
     }
 
     .third-background {
@@ -1586,30 +1568,18 @@ a:visited {
     }
 
     .third-header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         padding: 92px 16px 0 16px;
         margin-bottom: 20px;
     }
 
-    .third-title {
-        color: #FFFFFF;
-        margin-bottom: 20px;
-    }
-
     .sections-titles {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
     }
 
     .marketing {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #FFFFFF;
     }
 
     .third-columns {
@@ -1617,37 +1587,17 @@ a:visited {
         flex-direction: column;
     }
 
-    .top {
-        /* grid-column: 1/2; */
-        text-align: center;
-    }
-
     .columns-tittle {
-        text-transform: uppercase;
-        font-weight: 900;
         font-size: 69px;
         line-height: 60px;
-        color: #FFFFFF;
     }
 
     .columns-text {
-        font-weight: 700;
         font-size: 13px;
         line-height: 16px;
-        color: #FFFFFF;
         padding: 0 16px;
     }
 
-    .offers {
-        /* grid-column: 2/3; */
-        text-align: center;
-    }
-
-
-    .payment {
-        /* grid-column: 3/4; */
-        text-align: center;
-    }
 
     /* 4 часть */
 
@@ -1660,30 +1610,17 @@ a:visited {
     }
 
     .first-header {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
         margin-bottom: 32px;
     }
 
     .first-tittle {
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
-        text-transform: uppercase;
-        padding-bottom: 0;
-    }
-
-    .highlight {
-        color: #2E9ADB;
     }
 
     .first-text {
-        font-weight: 500;
         font-size: 13px;
         line-height: 15px;
-        color: #939393;
-
     }
 
     .first-payment {
@@ -1758,7 +1695,6 @@ a:visited {
 
     .subtittle {
         text-align: center;
-        font-weight: 900;
         font-size: 20px;
         line-height: 25px;
         margin-top: 75px;
@@ -1766,19 +1702,12 @@ a:visited {
 
     .second-text {
         text-align: center;
-        font-weight: 300;
         font-size: 14px;
         line-height: 16px;
     }
 
 
     .verticals {
-        background-image: url(../images/fourth-section/second-part/background.png);
-        background-repeat: no-repeat;
-        background-position: center top;
-        background-size: 100% 260px;
-        box-shadow: 0px 20px 80px rgba(0, 0, 0, 0.08);
-        border-radius: 8px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1787,7 +1716,6 @@ a:visited {
 
     /* FOOTER */
     .footer-cotainer {
-        display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(6, auto);
         margin: 0 16px 20px 16px;
@@ -1802,18 +1730,8 @@ a:visited {
     .rights {
         grid-column: 1/2;
         grid-row: 3/5;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #7E7E7E;
-    }
-
-    .all-rights {
-        margin: 0;
-    }
-
-    .copy {
-        margin: 0;
     }
 
     .terms {
@@ -1823,11 +1741,8 @@ a:visited {
 
     .terms,
     .privacy {
-        font-weight: 700;
         font-size: 14px;
         line-height: 17px;
-        text-transform: uppercase;
-        color: #2E9ADB;
     }
 
     .privacy {
@@ -1846,46 +1761,28 @@ a:visited {
     }
 
     .choice-text {
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-        color: #1C1C1C;
-        display: flex;
-        align-items: center;
-    }
-
-    .footer-text {
-        font-family: 'Gilroy';
-        font-style: normal;
     }
 
     .footer-contacts {
         grid-column: 1/3;
         grid-row: 2/3;
-        display: flex;
-        flex-direction: column;
         gap: 20px;
-        font-weight: 500;
         font-size: 16px;
         line-height: 19px;
-    }
-
-    .contact {
-        display: flex;
-        gap: 5px;
-        color: #000000;
     }
 }
 
 /* 2 часть*/
- 
-.second__main {
+
+/* .second__main {
     position: absolute;
 }
 
 .second {
     padding-top: 80px;
-} 
+}
 
 .second__title {
     font-weight: 900;
@@ -1908,7 +1805,7 @@ a:visited {
 
 .benefits__cards {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); 
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 25px;
     padding: 0 165px;
 }
@@ -1916,10 +1813,10 @@ a:visited {
 .benefits__card-pic {
     max-width: 65px;
     margin-bottom: 30px;
-    position:relative;
+    position: relative;
     display: block;
     margin-left: auto;
-    margin-right: auto 
+    margin-right: auto
 }
 
 .benefits__card-thumb {
@@ -1952,7 +1849,7 @@ a:visited {
     font-size: 24px;
     line-height: 24px;
     /* padding: 80px; */
-    width: 350px;
+/* width: 350px;
     height: 80px;
     transition: all 0.5s;
     cursor: pointer;
@@ -1973,24 +1870,22 @@ a:visited {
     display: inline-block;
     position: relative;
     transition: 0.5s;
-  }
-  
-  .button span:after {
+}
+
+.button span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
     top: 0;
     right: -20px;
     transition: 0.5s;
-  }
-  
-  .button:hover span {
+}
+
+.button:hover span {
     padding-right: 25px;
-  }
-  
-  .button:hover span:after {
+}
+
+.button:hover span:after {
     opacity: 1;
     right: 0;
-  }
-  
-  
+} */
