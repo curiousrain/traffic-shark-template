@@ -1,8 +1,8 @@
 # Traffic Shark
 
-https://curiousrain.github.io/traffic-shark-template/
-
 ## Проект сайта мобильной партнерской сети
+
+https://curiousrain.github.io/traffic-shark-template/
 
 Данный сайт помогает рекламодателям найти контент-мейкеров, арбитражников и владельцев различных сайтов, готовых размещать рекламу в своих продуктах.
 
