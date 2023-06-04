@@ -4,6 +4,8 @@
 
 https://curiousrain.github.io/traffic-shark-template/
 
+Макет - https://www.figma.com/file/aDUPoglgPwE7KmKwoZZjFs/Traffic-Shark?type=design&node-id=0-1&t=Og86jexTZQBbMG6c-0
+
 Данный сайт помогает рекламодателям найти контент-мейкеров, арбитражников и владельцев различных сайтов, готовых размещать рекламу в своих продуктах.
 
 **Подробнее о проекте**
